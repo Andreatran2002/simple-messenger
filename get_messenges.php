@@ -13,6 +13,6 @@ foreach($result as $r){
 	echo $r['username'];
 	echo "\\";
 	echo $r['message'];
-	echo "\n";		
+	echo "\n";			
 }
 
