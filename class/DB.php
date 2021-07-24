@@ -4,7 +4,7 @@ class DB
 
     private static function connect()
     {
-        $pdo = new PDO('mysql:host=127.0.0.1;dbname=simple_messenger;charset=utf8', 'andreatran', '123Phuongvy');
+        $pdo = new PDO('mysql:host=fdb34.awardspace.net;dbname=3895778_andreatran;charset=utf8', '3895778_andreatran', '123Phuongvy');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $pdo;
     }
